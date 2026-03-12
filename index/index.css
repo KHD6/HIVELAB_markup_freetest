@@ -1,0 +1,17 @@
+.section .top {
+  display: flex;
+  justify-content: space-between;
+}
+.section .top h1 {
+  font-size: 20px;
+}
+.section .top .short_cut {
+  font-size: 15px;
+  margin-right: 22px;
+}
+.section .top .short_cut::after {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+}/*# sourceMappingURL=index.css.map */

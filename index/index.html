@@ -1,0 +1,848 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../map/index.css" />
+
+    <title>HIVELAB_freetest_김홍덕</title>
+  </head>
+  <body>
+    <div class="section section01">
+      <div class="section-top">
+        <h1>지금부터의 신선마켓, 스마일프레시</h1>
+        <a class="short_cut" href="#">바로가기</a>
+      </div>
+
+      <div class="swiper main-banner">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide01">
+            <a class="inner" href="#">
+              <div class="left_box">
+                <div class="top">
+                  <p><span class="bold">스마일</span>프레시</p>
+                </div>
+                <div class="mid">
+                  클럽 고객은<br />
+                  매일 15% 할인
+                </div>
+                <div class="bot">클럽 첫 구매 시 50% 할인</div>
+              </div>
+              <div class="img_box">
+                <img src="../img/icon01.jpg" alt="15% 할인 이미지" />
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide slide02">
+            <a class="inner">
+              <div class="left_box">
+                <div class="top">
+                  <p><span class="bold">스마일</span>배송</p>
+                </div>
+                <div class="mid">
+                  알뜰하게 쇼핑하기<br />
+                  최대 40% 할인
+                </div>
+                <div class="bot">
+                  스타배송"단독"진행<img
+                    src="../img/speaker_icon.png"
+                    alt="스피커 이모지"
+                    style="width: 20px; height: 20px"
+                  />
+                </div>
+              </div>
+              <div class="img_box">
+                <img src="../img/icon02.jpg" alt="40% 할인 이미지" />
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="section-bot">
+        <div class="tab-menu green">
+          <button class="tab-btn active" data-target="tab01">하나더</button>
+          <button class="tab-btn" data-target="tab02">전단상품</button>
+          <button class="tab-btn" data-target="tab03">오반장</button>
+        </div>
+        <div class="product-container">
+          <div class="product-group active" id="tab01">
+            <ul class="product-list">
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product01.jpg" alt="1번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">크리넥스</span>
+                      <span>크리넥스 3겹 순수 소프트 내추럴 30팩</span>
+                    </div>
+                    <div class="text-bot coupon">
+                      <div>
+                        <span class="price-coupon">쿠폰적용가</span>
+                        <span class="Price-before">291,200원</span>
+                      </div>
+                      <div>
+                        <span class="discount">75%</span
+                        ><span class="text_bold">69,890</span
+                        ><span class="price">원</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product02.jpg" alt="2번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">백설</span>
+                      <span>CJ 다담 순두부 찌개양념 140g</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">2,380</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product03.jpg" alt="3번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">백설</span>
+                      <span>다담 된장찌개 양념</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">6,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product04.jpg" alt="4번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">비비고</span>
+                      <span>CJ 비비고 소고기듬뿍 설렁탕 460g</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">6,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product05.jpg" alt="5번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">ckdhckdl</span>
+                      <span>차오차이 130직화간짜장 180g</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">3,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product06.jpg" alt="6번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">비비고</span>
+                      <span>비비고물만두 315g</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">6,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <a href="#tab01" class="view-more"><span>하나더 상품 더보기</span></a>
+          </div>
+
+          <div class="product-group" id="tab02">
+            <ul class="product-list">
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product07.jpg" alt="1번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">크리넥스</span>
+                      <span>크리넥스 3겹 순수 소프트 내추럴 30팩</span>
+                    </div>
+                    <div class="text-bot coupon">
+                      <div>
+                        <span class="price-coupon">쿠폰적용가</span>
+                        <span class="Price-before">291,200원</span>
+                      </div>
+                      <div>
+                        <span class="discount">75%</span
+                        ><span class="text_bold">69,890</span
+                        ><span class="price">원</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product08.jpg" alt="2번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">백설</span>
+                      <span>CJ 다담 순두부 찌개양념 140g</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">2,380</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product09.jpg" alt="3번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">백설</span>
+                      <span>다담 된장찌개 양념</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">6,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product01.jpg" alt="4번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">비비고</span>
+                      <span>CJ 비비고 소고기듬뿍 설렁탕 460g</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">6,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product02.jpg" alt="5번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">ckdhckdl</span>
+                      <span>차오차이 130직화간짜장 180g</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">3,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product03.jpg" alt="6번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">비비고</span>
+                      <span>비비고물만두 315g</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">6,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <a href="#tab02" class="view-more"><span>전단상품 상품 더보기</span></a>
+          </div>
+
+          <div class="product-group" id="tab03">
+            <ul class="product-list">
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product04.jpg" alt="1번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">크리넥스</span>
+                      <span>크리넥스 3겹 순수 소프트 내추럴 30팩</span>
+                    </div>
+                    <div class="text-bot coupon">
+                      <div>
+                        <span class="price-coupon">쿠폰적용가</span>
+                        <span class="Price-before">291,200원</span>
+                      </div>
+                      <div>
+                        <span class="discount">75%</span
+                        ><span class="text_bold">69,890</span
+                        ><span class="price">원</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product05.jpg" alt="2번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">백설</span>
+                      <span>CJ 다담 순두부 찌개양념 140g</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">2,380</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product06.jpg" alt="3번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">백설</span>
+                      <span>다담 된장찌개 양념</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">6,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product07.jpg" alt="4번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">비비고</span>
+                      <span>CJ 비비고 소고기듬뿍 설렁탕 460g</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">6,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product08.jpg" alt="5번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">ckdhckdl</span>
+                      <span>차오차이 130직화간짜장 180g</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">3,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product09.jpg" alt="6번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top green">2개 사면 할인</div>
+                    <div class="text-mid">
+                      <span class="text_strong">비비고</span>
+                      <span>비비고물만두 315g</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">6,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <a href="#tab03" class="view-more"><span>오반장 상품 더보기</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section section02">
+      <div class="section-top">
+        <h1>오늘 주문 내일 도착, 스마일배송</h1>
+        <a class="short_cut" href="#">바로가기</a>
+      </div>
+
+      <div class="swiper main-banner">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide01">
+            <a class="inner" href="#">
+              <div class="left_box">
+                <div class="top">
+                  <p><span class="bold">스마일</span>배송</p>
+                </div>
+                <div class="mid">
+                  알뜰하게 쇼핑하기<br />
+                  최대 40% 할인
+                </div>
+                <div class="bot">클럽 첫 구매 시 50% 할인</div>
+              </div>
+              <div class="img_box">
+                <img src="../img/icon01.jpg" alt="40% 할인 이미지" />
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide slide02">
+            <a class="inner">
+              <div class="left_box">
+                <div class="top">
+                  <p><span class="bold">스마일</span>배송</p>
+                </div>
+                <div class="mid">
+                  알뜰하게 쇼핑하기<br />
+                  최대 40% 할인
+                </div>
+                <div class="bot">
+                  스타배송"단독"진행<img
+                    src="../img/speaker_icon.png"
+                    alt="스피커 이모지"
+                    style="width: 20px; height: 20px"
+                  />
+                </div>
+              </div>
+              <div class="img_box">
+                <img src="../img/icon02.jpg" alt="40% 할인 이미지" />
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="section-bot">
+        <div class="tab-menu purple">
+          <button class="tab-btn active" data-target="tab04">하나더</button>
+          <button class="tab-btn" data-target="tab05">전단상품</button>
+        </div>
+        <div class="product-container">
+          <div class="product-group active" id="tab04">
+            <ul class="product-list">
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product03.jpg" alt="1번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top blue">1</div>
+                    <div class="text-mid">
+                      <span class="text_strong"></span>
+                      <span
+                        >신라면 10입+안성탕면 5입+너구리 5입 +짜파게티 5입</span
+                      >
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">26,710</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product02.jpg" alt="2번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top blue">2</div>
+                    <div class="text-mid">
+                      <span class="text_strong">농심</span>
+                      <span>새우깡 8봉+매운새우깡 8봉</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">2,380</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product01.jpg" alt="3번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top blue">3</div>
+                    <div class="text-mid">
+                      <span class="text_strong">농심</span>
+                      <span>신라면+튀김우동+새우탕+오짬뽕 6입4개(총24개)</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">25,200</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product09.jpg" alt="4번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top blue">4</div>
+                    <div class="text-mid">
+                      <span class="text_strong">일리윤</span>
+                      <span>일리윤 세라마이드 아토로션 528ml 2개+증정품</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">6,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product08.jpg" alt="5번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top blue">5</div>
+                    <div class="text-mid">
+                      <span class="text_strong">농심</span>
+                      <span
+                        >신라면 5봉+너구리 5봉+짜파게티 5봉 오징어짬뽕 5봉</span
+                      >
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">3,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product07.jpg" alt="6번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top blue">6</div>
+                    <div class="text-mid">
+                      <span class="text_strong">웰치스</span>
+                      <span
+                        >웰치스 제로 그레이프+체리스트로베리+샤인머스캣</span
+                      >
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">23,000</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <a href="#tab04" class="view-more"><span>베스트 상품 더보기</span></a>
+          </div>
+
+          <div class="product-group" id="tab05">
+            <ul class="product-list">
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product09.jpg" alt="1번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top blue">1</div>
+                    <div class="text-mid">
+                      <span class="text_strong"></span>
+                      <span
+                        >신라면 10입+안성탕면 5입+너구리 5입 +짜파게티 5입</span
+                      >
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">26,710</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product08.jpg" alt="2번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top blue">2</div>
+                    <div class="text-mid">
+                      <span class="text_strong">농심</span>
+                      <span>새우깡 8봉+매운새우깡 8봉</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">2,380</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product07.jpg" alt="3번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top blue">3</div>
+                    <div class="text-mid">
+                      <span class="text_strong">농심</span>
+                      <span>신라면+튀김우동+새우탕+오짬뽕 6입4개(총24개)</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">25,200</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product06.jpg" alt="4번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top blue">4</div>
+                    <div class="text-mid">
+                      <span class="text_strong">일리윤</span>
+                      <span>일리윤 세라마이드 아토로션 528ml 2개+증정품</span>
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">6,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product05.jpg" alt="5번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top blue">5</div>
+                    <div class="text-mid">
+                      <span class="text_strong">농심</span>
+                      <span
+                        >신라면 5봉+너구리 5봉+짜파게티 5봉 오징어짬뽕 5봉</span
+                      >
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">3,980</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="product-item">
+                <a href="#">
+                  <div class="item-img">
+                    <img src="../img/product04.jpg" alt="6번째 이미지" />
+                    <button class="item-cart"></button>
+                  </div>
+                  <div class="item-text">
+                    <div class="text-top blue">6</div>
+                    <div class="text-mid">
+                      <span class="text_strong">웰치스</span>
+                      <span
+                        >웰치스 제로 그레이프+체리스트로베리+샤인머스캣</span
+                      >
+                    </div>
+                    <div class="text-bot">
+                      <span class="text_bold">23,000</span
+                      ><span class="price">원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <a href="#tab05" class="view-more"><span>무료배송 상품 더보기</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section section03">
+      <div class="delivery-info">
+        <div class="info-top">
+          <span>오늘 9/21(수) 출발 예정</span>
+          <button type="button" class="btn-info" id="btn-popup">
+            i
+          </button>
+
+          <div class="layer-popup" id="delivery-popup">
+            <div class="popup-header">
+              <strong>배송안내</strong>
+              <button type="button" class="btn-close">X</button>
+            </div>
+            <ul class="popup-content">
+              <li>
+                출발일과 도착일은 판매자, 택배사, 기상상황 등에 따라 달라질 수
+                있습니다.
+              </li>
+              <li>
+                판매자 사정 또는 여러 상품을 함께 주문한 경우 출발 예정일이나
+                배송사가 변동 될 수 있습니다.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="info-bot" id="accordion-content">
+          <div class="prob-header">
+            <strong>9/23(금)까지 도착 확률 86%</strong>
+            <button type="button" class="btn-toggle" id="btn-fold">
+              접기^
+            </button>
+          </div>
+
+          <div class="graph-box">
+            <ul>
+              <li>
+                <div class="arrive">9/22(목) 도착</div>
+                <div class="graph"></div>
+                <div class="graph-per">76%</div>
+              </li>
+              <li class="blue">
+                <div class="arrive">9/23(금) 도착</div>
+                <div class="graph"></div>
+                <div class="graph-per">86%</div>
+              </li>
+              <li>
+                <div class="arrive">9/24(토) 도착</div>
+                <div class="graph"></div>
+                <div class="graph-per">26%</div>
+              </li>
+            </ul>
+            <p class="text">배송 분석 시스템으로 예측되었습니다.<span>Beta</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".main-banner", {
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: { delay: 3000 },
+      });
+    </script>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
